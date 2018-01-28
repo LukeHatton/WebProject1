@@ -1,5 +1,7 @@
 package com.workpro.test;
 
+import org.junit.Test;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -21,4 +23,5 @@ public class UserServlet extends HttpServlet {
         System.out.println("在进行一些修改");
         doGet(req, resp);
     }
+
 }

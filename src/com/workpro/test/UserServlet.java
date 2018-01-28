@@ -16,6 +16,7 @@ public class UserServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("执行doPost方法");
+        System.out.println("随便输出点什么");
         doGet(req, resp);
     }
 }

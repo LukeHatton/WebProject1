@@ -18,6 +18,7 @@ public class UserServlet extends HttpServlet {
         System.out.println("执行doPost方法");
         System.out.println("随便输出点什么");
         System.out.println("在进行一些修改");
+        System.out.println("在进行一些修改");
         doGet(req, resp);
     }
 }
